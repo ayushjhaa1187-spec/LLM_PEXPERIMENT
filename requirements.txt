@@ -1,0 +1,36 @@
+# Web Framework
+Flask==2.3.3
+Flask-SQLAlchemy==3.0.5
+Flask-JWT-Extended==4.5.2
+Flask-CORS==4.0.0
+
+# Database
+SQLAlchemy==2.0.21
+psycopg2-binary==2.9.7
+alembic==1.12.0
+
+# Security
+Werkzeug==2.3.7
+PyJWT==2.8.1
+
+# API & Data
+requests==2.31.0
+python-dotenv==1.0.0
+
+# LLM & AI
+OpenAI==0.28.0
+LangChain==0.0.292
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Production
+gunicorn==21.2.0
+whitenoise==6.5.0
+
+# Development
+pytest==7.4.0
+pytest-cov==4.1.0
+black==23.9.1
+flake8==6.0.0
