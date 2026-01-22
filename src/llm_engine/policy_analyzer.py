@@ -221,6 +221,9 @@ if __name__ == "__main__":
     print(f"Critical Issues: {report['critical_issues']}")
     print(f"Total Affected Cost: ${report['total_affected_cost']:,.2f}")
     print(f"\nCompliance Summary:")
-    print(f"  - Fully Compliant: {report['compliance_summary']['fully_compliant']}")
-    print(f"  - Partially Compliant: {report['compliance_summary']['partially_compliant']}")
-    print(f"  - Non-Compliant: {report['compliance_summary']['non_compliant']}")
+    fc = report['compliance_summary']['fully_compliant']
+    print(f" - Fully Compliant: {fc}")
+    pc = report['compliance_summary']['partially_compliant']
+    print(f" - Partially Compliant: {pc}")
+    nc = report['compliance_summary']['non_compliant']
+    print(f" - Non-Compliant: {nc}")
